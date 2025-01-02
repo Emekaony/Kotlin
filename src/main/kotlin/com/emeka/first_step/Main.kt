@@ -1,10 +1,7 @@
 package main.kotlin.com.emeka.first_step
 
-import java.io.File
+import main.kotlin.com.emeka.first_step.functions.basics
 
 fun main( ) {
-    // open a file and read the contents of the file
-    val filename: String = "src/resources/dummy.txt"
-    val file = File(filename)
-    val lines = file.readLines().forEach { println(it) }
+    basics()
 }

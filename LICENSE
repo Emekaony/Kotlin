@@ -1,0 +1,56 @@
+# Gradle files
+.gradle/
+build/
+
+# IntelliJ IDEA and Android Studio files
+.idea/
+*.iml
+*.ipr
+*.iws
+
+# Kotlin build files
+out/
+
+# Temporary files
+*.log
+*.tmp
+*.temp
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Unit test reports
+test-results/
+test-output/
+
+# Generated files
+*.class
+*.jar
+*.war
+*.ear
+
+# Android-specific files
+*.apk
+*.ap_
+.cxx/
+.externalNativeBuild/
+local.properties
+.idea/caches/
+.idea/libraries/
+.idea/modules.xml
+.idea/workspace.xml
+.idea/navEditor.xml
+.idea/assetWizardSettings.xml
+*.jks
+*.keystore
+*.bak
+*.backup
+*.orig
+*.patch
+
+# User-specific files
+*.swp
+*.swo
+*.swn
+*.~lock.*
